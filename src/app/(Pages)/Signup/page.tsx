@@ -72,7 +72,7 @@ export default function Signup() {
 
           <input
             type="password"
-            placeholder="Password"
+            placeholder="Password(min 6)"
             className="w-full p-3 border border-gray-300 rounded-md"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
